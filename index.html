@@ -77,8 +77,11 @@
  	<div style="height: 8px"></div>
 	<div class="item">
 		<ul>
-			<li onclick="here(this)">Getting-Started</li>
-			<li onclick="here(this)">First-Shader-Graph</li>
+			<li onclick="here(this)">Getting Started</li>
+			<li onclick="here(this)">Create Shader Graph</li>
+			<li onclick="here(this)">Shader Graph Asset</li>
+			<li onclick="here(this)">Shader Graph Window</li>
+			<li onclick="here(this)">First Shader Graph</li>
 			<li onclick="here(this)">Node-Library</li>
 		</ul>
 	</div>
@@ -95,15 +98,24 @@
 	{
 		console.log(obj.innerText);
 		var text = obj.innerText;
-		if(text == "Getting-Started")
+		if(text == "Getting Started")
 		{
 			fra.setAttribute("src","Getting-Started.html")
-		}else if(text == "First-Shader-Graph")
+		}else if(text == "First Shader Graph")
 		{
 			fra.setAttribute("src","First-Shader-Graph.html");
-		}else if(text == "Node-Library")
+		}else if(text == "Node Library")
 		{
 			fra.setAttribute("src","Node-Library.html");
+		}else if(text == "Shader Graph Window")
+		{
+			fra.setAttribute("src","Shader-Graph-Window.html");
+		}else if(text == "Shader Graph Asset")
+		{
+			fra.setAttribute("src","Shader-Graph-Asset.html");
+		}else if(text == "Create Shader Graph")
+		{
+			fra.setAttribute("src","Create-Shader-Graph.html");
 		}
 	}
 </script>
